@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+
+article{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top_Part{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aqua;
+   align-items: center;
+}
+
+.top_Part >h1{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 5px;
+}
+
+.top_Part>.top_Side{
+    display: flex;
+     width: 25%;
+     align-items: center;
+     justify-content: space-between;
+
+}
+
+.top_Part>.top_Side>label{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.top_Part>.top_Side>input{
+    padding: 7px 15px;
+    border-radius: 7px;
+    border: none;
+}
+.top_Part>.top_Side>input:focus{
+    border: none;
+    text-decoration: none;
+}
+
+.top_Part>.btn_submit{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 5px;
+    
+}
+.top_Part>.btn_submit>button{
+    padding: 9px 19px;
+    display: flex;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bottom_Part{
+    display: flex;
+    background-color: white;
+
+}
+
+
+.left_Section{
+    width: 50%;
+    height: 68vh;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+.right_Section{
+    width: 50%;
+    height: 68vh;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+
+table{
+    border: 1px solid black;
+ margin-top:5px ;
+}
+th{
+    width: 25%;
+    border: 1px solid black;
+}
+
+tbody > tr >td{
+    width: 25%;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid black;
+}
